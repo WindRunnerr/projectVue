@@ -7,17 +7,17 @@ const route = {
     component: () => import(/* webpackChunkName: "News" */ './News.vue'),
     children: [
         {
-            path: '/news/newsYesterday',
+            path: '/main/news/newsYesterday',
             name: 'newsYesterday',
             component: () => import('./componets/newsYesterday.vue')
         },
         {
-            path: '/news/today',
+            path: '/main/news/today',
             name: 'newsToday',
             component: () => import('./componets/newsToday.vue')
         },
         {
-            path: '/news/newstom',
+            path: '/main/news/newstom',
             name: 'newstom',
             component: () => import('./componets/newstom.vue')
         },

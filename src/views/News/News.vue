@@ -2,9 +2,9 @@
     <div class="news">
         This is news
         <div>
-            <router-link to="/news/newsYesterday">newsYesterday</router-link> |
-            <router-link to="/news/today">newsToday</router-link> |
-            <router-link to="/news/newstom">newstom</router-link> |
+            <router-link to="/main/news/newsYesterday">newsYesterday</router-link> |
+            <router-link to="/main/news/today">newsToday</router-link> |
+            <router-link to="/main/news/newstom">newstom</router-link> |
         </div>
         <router-view />
     </div>
