@@ -1,0 +1,18 @@
+<template>
+  <div id="app">
+    <div id="login-bg">
+      <router-view />
+    </div>
+  </div>
+</template>
+
+<style lang="less">
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  // background: #555;
+}
+</style>
